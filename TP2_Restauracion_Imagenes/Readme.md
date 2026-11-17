@@ -42,16 +42,15 @@ adecuado para una publicación.
 ## 3. Demo
 ### Capturas de la aplicación
 La aplicación permite cargar una fotografía de un perro y verifica si cumple con el umbral mínimo recomendado de 112 píxeles en su lado más corto. También informa que cumplir este criterio no garantiza una restauración fiel.
-c:\Users\cynth\OneDrive\Desktop\T-cnicas-de-Procesamiento-Digital-de-Im-genes-2C-2026\TP2_Restauracion\Capturas\Captura de pantalla 2026-11-16 170959.png
-
+![Captura de la aplicación](Capturas/Captura%20de%20pantalla%202026-11-16%20170959.png)
 ### Comparación de resultados
 Se presentan tres imágenes: la fotografía original, la ampliación mediante interpolación bicúbica y el resultado final obtenido con Stable Diffusion x4 Upscaler y reducción de ruido mediante OpenCV. Esta comparación permite evaluar visualmente los cambios producidos
-c:\Users\cynth\OneDrive\Desktop\T-cnicas-de-Procesamiento-Digital-de-Im-genes-2C-2026\TP2_Restauracion\Capturas\Captura de pantalla 2026-11-16 171101.png
+![Comparación de resultados](Capturas/Captura%20de%20pantalla%202026-11-16%20171101.png)
 
 
 ### 3.3. Análisis visual y descarga
 La aplicación incorpora un mapa de diferencias y un informe de similitud visual generado con SigLIP. También muestra advertencias sobre posibles alteraciones de los rasgos del perro y permite descargar la fotografía final en formato PNG.
-c:\Users\cynth\OneDrive\Desktop\T-cnicas-de-Procesamiento-Digital-de-Im-genes-2C-2026\TP2_Restauracion\Capturas\Captura de pantalla 2026-11-16 171403.png
+![Análisis visual y descarga](Capturas/Captura%20de%20pantalla%202026-11-16%20171403.png)
 
 ### Video demostrativo
 
@@ -92,7 +91,7 @@ Durante las pruebas de honestidad realizadas en el apartado 2.8.2 del notebook, 
 Se compararon tres resultados: la fotografía original de referencia, la ampliación mediante interpolación bicúbica y la restauración generativa.
 
 La interpolación bicúbica produjo una imagen borrosa, pero mantuvo aproximadamente la estructura del animal. En cambio, Stable Diffusion x4 generó detalles visuales artificiales y alteró considerablemente la forma de la cabeza, el pelaje y las extremidades del perro.
-c:\Users\cynth\OneDrive\Desktop\T-cnicas-de-Procesamiento-Digital-de-Im-genes-2C-2026\TP2_Restauracion\Capturas\Captura de pantalla 2026-11-16 233249.png
+![Ejemplo de fallo de Stable Diffusion x4 Upscaler](Capturas/Captura%20de%20pantalla%202026-11-16%20233249.png)
 Este experimento demuestra que una imagen generada mediante superresolución puede parecer más definida sin representar fielmente al animal original. Por este motivo, la aplicación incorpora advertencias y herramientas de comparación, manteniendo la revisión humana como parte fundamental del proceso.
 
 
@@ -184,8 +183,6 @@ Se utilizó **Gradio** para desarrollar una interfaz interactiva que permite car
 ### Consideraciones sobre las licencias
 
 Los modelos preentrenados utilizados en el proyecto mantienen sus respectivas licencias y condiciones de uso, que deben respetarse al utilizarlos o distribuir resultados generados con ellos.
-
-
 
 
 ## 7. Arquitectura del Sistema
@@ -419,9 +416,6 @@ También se requieren controladores NVIDIA compatibles, una instalación de PyTo
 - Las sesiones de Google Colab son temporales.
 - El enlace público generado por Gradio deja de funcionar cuando finaliza la sesión correspondiente.
 - Los resultados pueden variar según la fotografía de entrada y la configuración del modelo.
-
-
-
 
 
 El proyecto
@@ -896,7 +890,7 @@ Se utilizaron los materiales de clase sobre modelos de difusión, superresoluci�
 **Carrera:** Tecnicatura Superior en Ciencias de Datos e IA  
 **Materia:** Procesamiento Digital de Imágenes e Introducción a Visión por Computadora  
 **Año:** 2026  
-**GitHub:** [Pendiente]
+**GitHub:** https://github.com/Cynthia-Guzman/T-cnicas-de-Procesamiento-Digital-de-Im-genes-2C-2026/blob/main/TP2_Restauracion_Imagenes/TP2_RestauracionyMejorade_imagenesconModelosdeDifusion.ipynb
 
 
 
