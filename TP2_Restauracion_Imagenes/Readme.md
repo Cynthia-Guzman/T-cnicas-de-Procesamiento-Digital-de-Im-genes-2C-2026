@@ -275,9 +275,6 @@ Por este motivo, la persona usuaria mantiene el control sobre la decisión de ut
 La aplicación permite descargar únicamente el resultado final procesado mediante Stable Diffusion x4 y OpenCV, en formato PNG.
 ```
 
-
-
-
 ## 8. Instalación y Ejecución
 
 ### 8.1. Requisitos
@@ -386,8 +383,8 @@ El proyecto también permite preparar sus dependencias en una computadora median
 Una vez publicado el repositorio en GitHub, se podrá descargar mediante:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
-cd NOMBRE_DE_LA_CARPETA
+git clone https://github.com/Cynthia-Guzman/T-cnicas-de-Procesamiento-Digital-de-Im-genes-2C-2026.git
+cd T-cnicas-de-Procesamiento-Digital-de-Im-genes-2C-2026/TP2_Restauracion_Imagenes
 ```
 
 Para instalar las dependencias registradas:
