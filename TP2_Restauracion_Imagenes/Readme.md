@@ -54,6 +54,11 @@ La aplicación incorpora un mapa de diferencias y un informe de similitud visual
 
 ### Video demostrativo
 
+En este video se presenta el funcionamiento de la aplicación de superresolución de imágenes mediante inteligencia artificial, incluyendo la comparación de resultados, las pruebas realizadas y las limitaciones del modelo.
+
+▶️ [Ver video demostrativo de la aplicación](https://drive.google.com/file/d/1xf_u0vQ1YCQR8a-DFbR7JyB9SCsSsjZ8/view?usp=drive_link)
+
+
 
 ## 4. Qué es real y qué es inventado
 
